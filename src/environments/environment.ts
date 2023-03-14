@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  APP_URL: "http://localhost:4200",
+  cognitoSettings: {
+    UserPoolId: "us-east-2_KSDQLp4Bj",
+    UserPoolDomain: "musictogether-stg.auth.us-east-2.amazoncognito.com",
+    ClientId: "4narbf2ot6ti5hf32v0g6c9krp",
+  },
+  api: {
+    BaseUrl: "https://api-local.musictogether.com/v2"
+  }
+
 };
 
 /*
